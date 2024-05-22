@@ -225,8 +225,8 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "IT Mentor",
+    desc: `Developed various projects including an Ojek Online App, News App, Absensi App, and Food Website Implemented APIs such as API CRUD and API Google Maps and utilized design patterns MVVM Taught Android and Website to vocational high school and college students, covering topics like Kotlin, Laravel, JavaScript, MySQL, PHP, and Firebase, as well as API implementation and design patterns`,
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
