@@ -73,7 +73,7 @@ export const projects = [
   {
     id: 1,
     title: "EventBro APMF 2022",
-    des: "Admin Dashboard for managing the APMF 2022 event, including scheduling, sponsors, banners, speakers, exhibitors, and more. Designed to streamline event logistics, it ensures efficient coordination and a successful event experience",
+    des: "Admin Dashboard for managing the APMF 2022 event: scheduling, sponsors, banners, speakers, exhibitors, attendee registration, and more. It streamlines event logistics, ensuring efficient coordination and a successful, smooth event experience",
     img: "/eventbroreal.png",
     iconLists: [
       "/re.svg",
@@ -88,7 +88,7 @@ export const projects = [
   {
     id: 2,
     title: "Dashboard Admin HaiDafam",
-    des: "A comprehensive tool for managing hotel operations, withdrawal transactions, and top-up activities. Designed for efficiency, it enables administrators to monitor and optimize hotel processes seamlessly.",
+    des: "A comprehensive tool for managing hotel operations, withdrawal transactions, top-up activities, hotels, membership, reservations, and services. It enables administrators to efficiently monitor and optimize all hotel processes effectively.",
     img: "/haidafamreal.png",
     iconLists: [
       "/next.svg",
