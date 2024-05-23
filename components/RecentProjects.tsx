@@ -3,6 +3,7 @@
 
 import { projects } from "@/data";
 import { PinContainer } from "./ui/Pin";
+import { FaLocationArrow } from "react-icons/fa";
 
 const RecentProjects = () => {
   return (
@@ -54,6 +55,17 @@ const RecentProjects = () => {
                     </div>
                   ))}
                 </div>
+                {(item.id === 4 || item.id === 5) && (
+                  <div
+                    className="flex justify-center items-center"
+                    onClick={() => window.open(`${item.link}`, "_blank")}
+                  >
+                    <p className="flex lg:text-xl md:text-xs text-sm text-purple">
+                      Check Live Site
+                    </p>
+                    <FaLocationArrow className="ms-3" color="#CBACF9" />
+                  </div>
+                )}
               </div>
             </PinContainer>
           </div>
