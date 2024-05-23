@@ -152,100 +152,117 @@ export const projects = [
   },
 ];
 
-export const testimonials = [
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-];
-
-export const companies = [
+export const experiences = [
   {
     id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
+    title: "Freelance Software Engineer",
+    company: "Self-employed · Bandung",
+    duration: "Jan 2024 - Present",
+    responsibilities: [
+      "Create Responsive Website Landing page, Laundry Website using Next Js 13 + Tailwind CSS.",
+    ],
+    skills: ["Next.js", "JavaScript", "Tailwind CSS", "Front-end Development"],
   },
   {
     id: 2,
-    name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
+    title: "Part Time Software Engineer",
+    company: "Umrohin.Id · Bandung",
+    duration: "Nov 2023 - Dec 2023",
+    responsibilities: [
+      "Developed a responsive web landing page based on Figma designs for Umroh service bookings. Work together with team. Implemented API. Fixing Bug",
+    ],
+    skills: ["Front-end Development", "Tailwind CSS", "TypeScript", "Next.js"],
   },
   {
     id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
+    title: "Freelance Software Engineer",
+    company: "Teman Cuan · Remote",
+    duration: "Apr 2023 - Aug 2023",
+    responsibilities: [
+      "Collaborate with team to Created Dashboard Admin Teman Cuan. Integrated API and Implemented Login with Axios.",
+    ],
+    skills: [
+      "Next.js",
+      "Front-end Development",
+      "TypeScript",
+      "Ant Design",
+      "Tailwind CSS",
+      "WebSocket",
+    ],
   },
   {
     id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
+    title: "Full Time Software Engineer",
+    company: "Haitoko · Semarang",
+    duration: "Oct 2022 - Mar 2023",
+    responsibilities: [
+      "Designed and implemented Dashboard product (Haifood, Haipaket, Haimart) for e-commerce management app. Implemented API data, notification and showing the live location of a driver using MQTT and WebSocket.",
+    ],
+    skills: [
+      "Front-end Development",
+      "TypeScript",
+      "React.js",
+      "Ant Design",
+      "Next.js",
+      "WebSocket",
+    ],
   },
   {
     id: 5,
-    name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
+    title: "Full Time Software Engineer",
+    company: "KodingWorks · Semarang",
+    duration: "May 2022 - Mar 2023",
+    responsibilities: [
+      "Developed scalable Dashboard product for hotel management and Dashboard for managing APMF 2022 Event. Worked as an intern leader, guiding and mentoring other interns in their learning and development.",
+    ],
+    skills: [
+      "TypeScript",
+      "React.js",
+      "Ant Design",
+      "JavaScript",
+      "Next.js",
+      "Scrum Master",
+    ],
   },
-];
-
-export const workExperience = [
   {
-    id: 1,
+    id: 6,
+    title: "Internship Software Engineer",
+    company: "Kodingworks",
+    duration: "Feb 2022 - Apr 2022",
+    responsibilities: [
+      "Learned and applied skills in Javascript and React during the internship. Learn project with clone haripanen, make cart logic",
+    ],
+    skills: ["Material-UI", "React.js", "JavaScript"],
+  },
+  {
+    id: 7,
     title: "IT Mentor",
-    desc: `Developed various projects including an Ojek Online App, News App, Absensi App, and Food Website Implemented APIs such as API CRUD and API Google Maps and utilized design patterns MVVM Taught Android and Website to vocational high school and college students, covering topics like Kotlin, Laravel, JavaScript, MySQL, PHP, and Firebase, as well as API implementation and design patterns`,
-    className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
+    company: "IDN Boarding School · Full-time",
+    duration: "Jun 2020 - Dec 2021",
+    location: "Bogor, West Java, Indonesia · On-site",
+    responsibilities: [
+      "Taught Android and Website to vocational high school and college students, covering topics like Kotlin, Laravel, JavaScript, MySQL, PHP, and Firebase, as well as API implementation and design patterns.",
+    ],
+    skills: [
+      "Kotlin",
+      "Android",
+      "JavaScript",
+      "Laravel",
+      "Tailwind CSS",
+      "Firebase",
+      "MySQL",
+    ],
   },
   {
-    id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
-  },
-  {
-    id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
-  },
-  {
-    id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
-    className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
+    id: 8,
+    title: "Android Developer",
+    company: "Kazee · Internship",
+    duration: "Oct 2019 - Dec 2019",
+    location: "Bandung, West Java, Indonesia · On-site",
+    responsibilities: [
+      "Work collaborate with team as intern, Create project Waktoo App, Attendance management apps.",
+    ],
+    skills: ["Kotlin", "Android", "Model-view-viewmodel (MVVM)"],
   },
 ];
 
