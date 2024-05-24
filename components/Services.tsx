@@ -4,11 +4,14 @@ import { services } from "@/data";
 
 export function Services() {
   return (
-    <div className="px-20 pt-40 h-screen items-center" id="services">
+    <div
+      className="px-0 md:px-20 pt-40 pb-40 md:pb-0 h-full md:h-screen items-center"
+      id="services"
+    >
       <h1 className="heading">
         My Special <span className="text-purple">Services</span>
       </h1>
-      <div className="grid grid-cols-3 gap-10 mt-20">
+      <div className="grid grid-col-1 md:grid-cols-3 gap-10 mt-20">
         {services.map((item) => (
           <div key={item.id} className="relative w-full gap-4">
             <div className="absolute inset-0 h-full w-full bg-gradient-to-r from-purple-100 to-purple transform scale-[0.80] bg-red-500 rounded-full blur-3xl" />

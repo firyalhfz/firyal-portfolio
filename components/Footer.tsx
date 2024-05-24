@@ -38,7 +38,7 @@ const Footer = () => {
           Copyright © 2024 Firyal Huwaida
         </p>
 
-        <div className="flex items-center md:gap-3 gap-6 mb-4">
+        <div className="flex items-center md:gap-3 gap-6 mb-4 mt-4 md:mt-0">
           {socialMedia.map((info) => (
             <div
               key={info.id}
