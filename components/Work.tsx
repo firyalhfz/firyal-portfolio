@@ -6,7 +6,7 @@ import { FaLocationDot } from "react-icons/fa6";
 
 const Work = () => {
   return (
-    <div className="mt-40">
+    <div className="mt-40" id="experiences">
       <h1 className="heading">
         My <span className="text-purple">work experience</span>
       </h1>

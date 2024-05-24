@@ -1,8 +1,8 @@
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
-  { name: "Contact", link: "#contact" },
+  { name: "Experiences", link: "#experiences" },
+  { name: "Services", link: "#services" },
 ];
 
 export const gridItems = [
@@ -159,7 +159,7 @@ export const experiences = [
     company: "Self-employed · Bandung",
     duration: "Jan 2024 - Present",
     responsibilities: [
-      "Create Responsive Website Landing page, Laundry Website using Next Js 13 + Tailwind CSS.",
+      "Created a responsive website landing page for a laundry service using Next.js 13 and Tailwind CSS. The site includes features such as services, price list, company information, contact details, ordering instructions, and FAQs",
     ],
     skills: ["Next.js", "JavaScript", "Tailwind CSS", "Front-end Development"],
   },
@@ -169,7 +169,7 @@ export const experiences = [
     company: "Umrohin.Id · Bandung",
     duration: "Nov 2023 - Dec 2023",
     responsibilities: [
-      "Developed a responsive web landing page based on Figma designs for Umroh service bookings. Work together with team. Implemented API. Fixing Bug",
+      "As a Front End Developer, I developed a responsive web landing page for Umroh service bookings based on Figma designs and integrated it with APIs. I collaborated with Back-end Developers, QA Engineers, and Project Managers. Additionally, I contributed to fixing bugs and improving application performance",
     ],
     skills: ["Front-end Development", "Tailwind CSS", "TypeScript", "Next.js"],
   },
@@ -179,7 +179,7 @@ export const experiences = [
     company: "Teman Cuan · Remote",
     duration: "Apr 2023 - Aug 2023",
     responsibilities: [
-      "Collaborate with team to Created Dashboard Admin Teman Cuan. Integrated API and Implemented Login with Axios.",
+      "Developed Admin Teman CUan a tool for managing a social network website with features like user login, signup, and CRUD functionalities for admin, talent, and content management. I created an intuitive UI, integrated external APIs, and implemented secure authentication with Axios. I collaborated with team and contributing to bug fixes.",
     ],
     skills: [
       "Next.js",
@@ -196,7 +196,7 @@ export const experiences = [
     company: "Haitoko · Semarang",
     duration: "Oct 2022 - Mar 2023",
     responsibilities: [
-      "Designed and implemented Dashboard product (Haifood, Haipaket, Haimart) for e-commerce management app. Implemented API data, notification and showing the live location of a driver using MQTT and WebSocket.",
+      "I designed and implemented scalable e-commerce dashboards (Haifood, Haipaket, Haimart) using React.js, Next.js, TypeScript, and AntDesign. I integrated RESTful APIs, real-time notifications, and live driver locations using MQTT and WebSocket.",
     ],
     skills: [
       "Front-end Development",
@@ -213,7 +213,7 @@ export const experiences = [
     company: "KodingWorks · Semarang",
     duration: "May 2022 - Mar 2023",
     responsibilities: [
-      "Developed scalable Dashboard product for hotel management and Dashboard for managing APMF 2022 Event. Worked as an intern leader, guiding and mentoring other interns in their learning and development.",
+      "Developed scalable dashboards for hotel management and the APMF 2022 Event using React.js, TypeScript, and AntDesign, integrating RESTful APIs for data consumption. and as an intern leader, I mentored and supported interns, enhancing their technical and soft skills.",
     ],
     skills: [
       "TypeScript",
@@ -227,7 +227,7 @@ export const experiences = [
   {
     id: 6,
     title: "Internship Software Engineer",
-    company: "Kodingworks",
+    company: "Kodingworks · Semarang",
     duration: "Feb 2022 - Apr 2022",
     responsibilities: [
       "Learned and applied skills in Javascript and React during the internship. Learn project with clone haripanen, make cart logic",
@@ -236,12 +236,12 @@ export const experiences = [
   },
   {
     id: 7,
-    title: "IT Mentor",
-    company: "IDN Boarding School · Full-time",
+    title: "Full Time IT Mentor",
+    company: "IDN Boarding School · Bogor",
     duration: "Jun 2020 - Dec 2021",
     location: "Bogor, West Java, Indonesia · On-site",
     responsibilities: [
-      "Taught Android and Website to vocational high school and college students, covering topics like Kotlin, Laravel, JavaScript, MySQL, PHP, and Firebase, as well as API implementation and design patterns.",
+      "Developed some projects including Ojek Online, News, Absensi Apps, and a Food Website, integrating APIs like CRUD and Google Maps, employing MVVM design patterns. Additionally, I instructed vocational high school and college students in Android and Website development, covering Kotlin, Laravel, JavaScript, MySQL, PHP, Firebase, and API implementation.",
     ],
     skills: [
       "Kotlin",
@@ -255,8 +255,8 @@ export const experiences = [
   },
   {
     id: 8,
-    title: "Android Developer",
-    company: "Kazee · Internship",
+    title: "Internship Android Developer",
+    company: "Kazee · Bandung",
     duration: "Oct 2019 - Dec 2019",
     location: "Bandung, West Java, Indonesia · On-site",
     responsibilities: [
@@ -266,17 +266,38 @@ export const experiences = [
   },
 ];
 
+export const services = [
+  {
+    id: 1,
+    title: "Front End Engineer",
+    desc: "I proficiently craft dynamic web interfaces utilizing modern frameworks such as React.js and Next.js, ensuring seamless user experiences across various platforms",
+  },
+  {
+    id: 2,
+    title: "UI Engineer",
+    desc: "I proficiently convert Figma designs into responsive HTML and CSS code. With experience in implementing designs into functional code. I'm ready to help bring your design vision to life",
+  },
+  {
+    id: 3,
+    title: "IT Mentor",
+    desc: "With a passion for sharing knowledge, I offer comprehensive training services in web development. I'm here to support your learning journey!",
+  },
+];
+
 export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/firyalhfz",
   },
   {
     id: 2,
-    img: "/twit.svg",
+    img: "/medium.png",
+    link: "https://medium.com/@firyalhfz",
   },
   {
     id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/firyal-huwaida-fauzi/",
   },
 ];

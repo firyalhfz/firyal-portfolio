@@ -33,7 +33,7 @@ const Hero = () => {
             words="I'm Firyal, a Software Engineer (Front End)"
           />
 
-          <a href="#about">
+          <a href="#projects">
             <MagicButton
               title="Show my Work"
               icon={<FaLocationArrow />}
