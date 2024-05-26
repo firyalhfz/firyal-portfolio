@@ -8,7 +8,7 @@ import MagicButton from "./ui/MagicButton";
 const Footer = () => {
   return (
     <footer className="w-full max-h-100" id="contact">
-      <div className="w-full absolute left-0 bottom-0 min-h-80">
+      <div className="w-full absolute left-0 bottom-0 min-h-80 z-0">
         <img
           src="/footerbg.png"
           alt="grid"
@@ -33,12 +33,12 @@ const Footer = () => {
           />
         </a>
       </div>
-      <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
+      <div className="flex mt-16 md:flex-row flex-col justify-between items-center z-2 relative">
         <p className="md:text-base text-sm md:font-normal font-light">
           Copyright © 2024 Firyal Huwaida
         </p>
 
-        <div className="flex items-center md:gap-3 gap-6 mb-4 mt-4 md:mt-0">
+        <div className="flex items-center md:gap-3 gap-6 mb-4 mt-4 md:mt-0 z-100">
           {socialMedia.map((info) => (
             <div
               key={info.id}
