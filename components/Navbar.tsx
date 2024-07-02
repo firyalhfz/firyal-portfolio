@@ -23,13 +23,13 @@ export function NavBar() {
         <BsLaptopFill className="h-4 w-4 text-neutral-500 dark:text-white" />
       ),
     },
-    {
-      name: "Experiences",
-      link: "#experiences",
-      icon: (
-        <MdOutlineWork className="h-4 w-4 text-neutral-500 dark:text-white" />
-      ),
-    },
+    // {
+    //   name: "Experiences",
+    //   link: "#experiences",
+    //   icon: (
+    //     <MdOutlineWork className="h-4 w-4 text-neutral-500 dark:text-white" />
+    //   ),
+    // },
     {
       name: "Services",
       link: "#services",
